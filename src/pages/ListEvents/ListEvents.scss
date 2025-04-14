@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4rem;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 3rem 10rem;
+}
+
+.card {
+  width: 1fr;
+}
