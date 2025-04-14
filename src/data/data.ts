@@ -25,6 +25,16 @@ const data = [
         image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769"
     },
     {
+        id: "fashionDay",
+        title: "День моды",
+        category: "Мода",
+        description: "Показы от дизайнеров и модные зоны.",
+        detailed: "В рамках дня моды пройдут дефиле от отечественных и зарубежных дизайнеров, выставки модной фотографии и pop-up магазины. Специальные зоны будут посвящены sustainable fashion и локальным брендам.",
+        date: "2025-09-05",
+        location: "Москва, Гостиный двор",
+        image: "https://s.yimg.com/ny/api/res/1.2/Vilv6HkcBOh7kjGWUNu8iw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0NDA-/https://media.zenfs.com/en/page_six_articles_559/40b16151c2ceec924227c92b2b70d3b5"
+    },
+    {
         id: "foodFest",
         title: "Фестиваль уличной еды",
         category: "Еда",
@@ -153,16 +163,6 @@ const data = [
         date: "2025-11-03",
         location: "Томск, Научный центр",
         image: "https://images.squarespace-cdn.com/content/v1/605cb16a57c3483a98926c4b/1618275444705-467ITDC8TME89NOW8FRI/shutterstock_675978094.jpg"
-    },
-    {
-        id: "fashionDay",
-        title: "День моды",
-        category: "Мода",
-        description: "Показы от дизайнеров и модные зоны.",
-        detailed: "В рамках дня моды пройдут дефиле от отечественных и зарубежных дизайнеров, выставки модной фотографии и pop-up магазины. Специальные зоны будут посвящены sustainable fashion и локальным брендам.",
-        date: "2025-09-05",
-        location: "Москва, Гостиный двор",
-        image: "https://s.yimg.com/ny/api/res/1.2/Vilv6HkcBOh7kjGWUNu8iw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0NDA-/https://media.zenfs.com/en/page_six_articles_559/40b16151c2ceec924227c92b2b70d3b5"
     },
     {
         id: "retroAuto",
