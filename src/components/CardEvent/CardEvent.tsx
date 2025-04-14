@@ -1,20 +1,21 @@
-import { Badge, Box, Button, Card, HStack, Image } from "@chakra-ui/react"
+import { Badge, Box, Card, HStack, Image } from "@chakra-ui/react"
 
 interface CardType {
     title: string;
     description: string;
     image: string;
     category: string;
+    date: string;
 }
 
-function CardEvent({title, description, image, category}: CardType) {
+function CardEvent({title, description, image, category, date}: CardType) {
     return (
         <Card.Root flexDirection="row" overflow="hidden" maxW="xl" borderRadius="10px" height="300px">
             <Image
                 objectFit="cover"
                 maxW="200px"
                 src={image}
-                alt="Caffe Latte"
+                alt="img-event"
             />
             <Box>
                 <Card.Body>
@@ -27,7 +28,7 @@ function CardEvent({title, description, image, category}: CardType) {
                     </HStack>
                 </Card.Body>
                 <Card.Footer>
-                    <Button>Buy Latte</Button>
+                    <Badge color="gray" mr="2">{date}</Badge>
                 </Card.Footer>
             </Box>
         </Card.Root>
